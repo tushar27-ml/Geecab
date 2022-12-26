@@ -12,7 +12,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <title>Admin Panel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -50,11 +50,11 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">NiceAdmin</span>
       </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
+      
     </div><!-- End Logo -->
 
     <!-- End Search Bar -->
@@ -78,26 +78,27 @@
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+            <span class="d-none d-md-block dropdown-toggle ps-2">Admin</span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Kevin Anderson</h6>
+              <h6>Admin</h6>
               
             </li>
             <li>
               <hr class="dropdown-divider">
             </li>
 
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-person"></i>
-                <span>My Profile</span>
-              </a>
-            </li>
+            
             <li>
               <hr class="dropdown-divider">
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="index.php?managepost">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Manage Post</span>
+              </a>
             </li>
             <li>
               <a class="dropdown-item d-flex align-items-center" href="../includes/logout.php">
@@ -116,8 +117,9 @@
 
   <!-- ======= Sidebar ======= -->
   <!-- End Sidebar-->
-
-  <main id="main" class="main">
+  
+    
+  <main>
 
     <div class="pagetitle">
       <h1>Dashboard</h1>
@@ -164,7 +166,7 @@
 
                 <div class="row mb-3">
                 
-                  <label for="inputEmail" class="col-sm-2 col-form-label">content</label>
+                  <label for="inputEmail" class="col-sm-2 col-form-label">Content</label>
                   <div class="col-sm-10">
                     <input type="text" class="form-control" name="post_content" required>
                   

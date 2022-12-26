@@ -78,9 +78,12 @@ if(isset($_GET['page'])){
                     $runPQ = mysqli_query($db,$postQuery);
                     while($post=mysqli_fetch_assoc($runPQ)){
                         ?>
+                        <?php $imgQuery= "SELECT image FROM images WHERE post_id = {$post['id']}"; ?>
+                        <?php $img = mysqli_query($db,$imgQuery);?>
+                        <?php $image = mysqli_fetch_assoc($img);?>
                         <div class="single-blog-style-two">
                         <div class="img-box">
-                            <img src="img/blog-2-1.jpg" alt="Awesome Image"/>
+                            <img src="img/<?= $image['image'] ?>" alt="Awesome Image" style="width: 770px; height: 385px;"/>
                         </div><!-- /.img-box -->
                         <div class="text-box">
                             <a href="blog-details.php?id=<?=$post['id']?>"><h3><?=$post['title']?></h3></a>
