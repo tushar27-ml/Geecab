@@ -40,11 +40,11 @@
     
     <div class="inner-banner" style="position: relative; top: -75px; height: 400px;">
         <div class="container">
-            <h3>Project Page</h3>
+            <h3>Product Page</h3>
             <ul class="breadcumb">
                 <li><a href="index.html">Home</a></li><!--
                 --><li><span class="sep"><i class="fa fa-angle-right"></i></span></li><!--
-                --><li><span>Project Page</span></li>
+                --><li><span>Product Page</span></li>
             </ul><!-- /.breadcumb -->
         </div><!-- /.container -->
     </div><!-- /.inner-banner -->
@@ -219,40 +219,7 @@
         </div><!-- /.container-fluid -->
     </section><!-- /.video-box-style-one -->
 
-    <section class="contact-info-style-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="title">
-                        <h3>Get in <span>touch</span></h3>
-                        <p>You will find yourself working in a true partnership that results in an incredible experience, and an end product that is the best.</p>
-                    </div><!-- /.title -->
-                </div><!-- /.col-md-7 -->
-                <div class="col-md-6">
-                    <div class="contact-infos">
-                        <div class="single-contact-infos">
-                            <div class="icon-box">
-                                <i class="industrio-icon-phone-call"></i>
-                            </div><!-- /.icon-box -->
-                            <div class="text-box">
-                                <h3>Call us on</h3>
-                                <p>222-121-4562</p>
-                            </div><!-- /.text-box -->
-                        </div><!-- /.single-contact-infos -->
-                        <div class="single-contact-infos">
-                            <div class="icon-box">
-                                <i class="industrio-icon-envelope"></i>
-                            </div><!-- /.icon-box -->
-                            <div class="text-box">
-                                <h3>Email us</h3>
-                                <p>support@gmail.com</p>
-                            </div><!-- /.text-box -->
-                        </div><!-- /.single-contact-infos -->
-                    </div><!-- /.contact-infos -->
-                </div><!-- /.col-md-5 -->
-            </div><!-- /.row -->
-        </div><!-- /.contianer -->
-    </section><!-- /.contact-info-style-one -->
+    <?php include_once('includes/getintouch.php') ?><!-- /.contact-info-style-one -->
 
 </div><!-- /.page-wrapper -->
 

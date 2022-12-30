@@ -7,7 +7,7 @@
     <meta name="description" content="Industrial Corporate Industry & Factory - Industrio - Industrial Industry & Factory">
     <meta name="keywords" content="chemical, company, construction, engineering, factory, gas, industrial, industry, laboratory, manufacture, mechanical, mining, oil, pharmaceutical, refinery">
     <meta name="author" content="Themexriver">
-    <title>Industrio - Responsive HTML 5 template</title>
+    <title>GeeCab - Contact-Us</title>
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -42,7 +42,7 @@
         <div class="container">
             <h3>Contact Us</h3>
             <ul class="breadcumb">
-                <li><a href="index.php">Home</a></li><!--
+                <li><a href="index">Home</a></li><!--
                 --><li><span class="sep"><i class="fa fa-angle-right"></i></span></li><!--
                 --><li><span>Contact Us</span></li>
             </ul><!-- /.breadcumb -->
@@ -111,7 +111,7 @@
                         <input type="text" placeholder="Your Location.." name="location" />
                         <input type="text" placeholder="Your Subject.." name="subject" />
                         <textarea placeholder="Write..." name="message"></textarea>
-                        <button type="submit" class="hvr-sweep-to-right" value ="Send"><a href="mailto:info@geecab.in" style="color:#ffff;">Send</button>
+                        <button type="submit" class="hvr-sweep-to-right" value ="Send"><a href="mailto:info@geecab.in" style="color:#ffff;">Send</a></button>
                     </form>
 
                 </div><!-- /.col-md-6 -->

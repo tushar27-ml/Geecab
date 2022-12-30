@@ -3,39 +3,39 @@
     <a href="#" class="close-button side-navigation-close-btn fa fa-times"></a><!-- /.close-button -->
     <div class="sidebar-content">
         <div class="top-content">
-            <a href="index.php"><img src="img/GeecabHeader.png" alt="Awesome Image"/></a>
+            <a href="index"><img src="img/GeecabHeader.png" alt="Awesome Image"/></a>
         </div><!-- /.top-content -->
         <nav class="nav-menu middle-content">
             <ul class="navigation-box">
                 <li class="current"> 
-                    <a href="index.php">Home </a> 
+                    <a href="index">Home </a> 
                 </li>
-                <li> <a href="about.php">About Us</a> </li>
+                <li> <a href="about">About Us</a> </li>
                 
                 <li> 
-                    <a href="project.php">Products</a> 
+                    <a href="project">Products</a> 
                     <!-- /.sub-menu -->
                 </li>
                 <li> 
-                    <a href="team.php">Brands</a> 
+                    <a href="team">Brands</a> 
                     <!-- /.sub-menu -->
                 </li>
                 <li>  
-                    <a href="blog.php">Blog</a> 
+                    <a href="blog">Blog</a> 
                     <!-- /.sub-menu -->
                 </li>
                 <li> 
                 <a href="#">Our Presense <span class="subnav-toggler fa fa-caret-down"></span></a> 
                     <ul class="sub-menu">
-                        <li><a href="coming-soon.php">Sikkim</a></li>
-                        <li><a href="coming-soon.php">Mizoram</a></li>
-                        <li><a href="coming-soon.php">West Bengal</a></li>
-                        <li><a href="coming-soon.php">Assam</a></li>
+                        <li><a href="coming-soon">Sikkim</a></li>
+                        <li><a href="coming-soon">Mizoram</a></li>
+                        <li><a href="coming-soon">West Bengal</a></li>
+                        <li><a href="coming-soon">Assam</a></li>
                     </ul>
                 </li> 
 
 
-                <li> <a href="contact.php">Contact Us</a> </li>
+                <li> <a href="contact">Contact Us</a> </li>
             </ul>
         </nav><!-- /.nav-menu -->
         <div class="bottom-content">

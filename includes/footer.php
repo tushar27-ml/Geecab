@@ -15,13 +15,13 @@
                             <h3 style="color: #FF0000;">Links</h3>
                         </div><!-- /.title -->
                         <ul class="links-list">
-                            <li><a href="index.php" style="color: #fff;">Home</a></li>
-                            <li><a href="about.php" style="color: #fff;">About Us</a></li>
-                            <li><a href="project.php" style="color: #fff;">Products</a></li>
-                            <li><a href="team.php" style="color: #fff;">Brands</a></li>
-                            <li><a href="blog.php" style="color: #fff;">Blog</a></li>
-                            <li><a href="coming-soon.php" style="color: #fff;">Our Presence</a></li>
-                            <li><a href="contact.php" style="color: #fff;">Contact</a></li>
+                            <li><a href="index" style="color: #fff;">Home</a></li>
+                            <li><a href="about" style="color: #fff;">About Us</a></li>
+                            <li><a href="project" style="color: #fff;">Products</a></li>
+                            <li><a href="team" style="color: #fff;">Brands</a></li>
+                            <li><a href="blog" style="color: #fff;">Blog</a></li>
+                            <li><a href="coming-soon" style="color: #fff;">Our Presence</a></li>
+                            <li><a href="contact" style="color: #fff;">Contact</a></li>
                         </ul><!-- /.links-list -->
                     </div><!-- /.footer-widget links-widget -->
                 </div><!-- /.col-md-2 -->
@@ -45,7 +45,7 @@
                         <p>Many of our SELC registered employees are requested as main</p>
                         <form method="post" value="Send" class="subscribe-form">
                             <input name="email" type="text" placeholder="Email Address" />
-                            <button type="submit" class="hvr-sweep-to-right"><a href="mailto:info@geecab.in" style="color:#ffff;">Subscribe</button>
+                            <button type="submit" class="hvr-sweep-to-right"><a href="mailto:info@geecab.in" style="color:#ffff;">Subscribe</button></a>
                         </form><!-- /.subscribe-form -->
                     </div><!-- /.footer-widget subscribe-widget -->
                 </div><!-- /.col-md-4 -->

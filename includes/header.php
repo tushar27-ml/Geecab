@@ -1,7 +1,7 @@
 <div class="header-top home-one clearfix" style="background:#ffff;">
         <div class="container">
             <div class="logo pull-left" >
-                <a href="index.php"><img src="img/GeecabHeader1.png" alt="Awesome Image"style="width: 230px; height: 54px;"/></a>
+                <a href="index"><img src="img/GeecabHeader1.png" alt="Awesome Image"style="width: 230px; height: 54px;"/></a>
             </div><!-- /.logo -->
             <div class="header-right-info pull-right">
                 <div class="single-header-right-info">
@@ -10,7 +10,7 @@
                     </div><!-- /.icon-box -->
                     <div class="text-box">
                         <p>Call us 9:00am - 6:00pm</p>
-                        <h3 style="color:#181818;">222-121-4562</h3>
+                        <a href="tel:222-121-4562"><h3 style="color:#181818;">222-121-4562</h3></a>
                     </div><!-- /.text-box -->
                 </div><!-- /.single-header-right-info -->
                 <div class="single-header-right-info">
@@ -28,7 +28,7 @@
                     </div><!-- /.icon-box -->
                     <div class="text-box">
                         <p>E-mail us</p>
-                        <a href="mailto:info@geecab.in" ><h3 style="color:#181818;">info@geecab.in</h3>
+                        <a href="mailto:info@geecab.in" ><h3 style="color:#181818;">info@geecab.in</h3></a>
                     </div><!-- /.text-box -->
                 </div><!-- /.single-header-right-info -->
             </div><!-- /.header-right-info -->
@@ -48,9 +48,9 @@
                     
                     <ul class="nav navbar-nav navigation-box">
                         <li class="current"> 
-                            <a href="index.php">Home</a> 
+                            <a href="index">Home</a> 
                         </li>
-                        <li> <a href="about.php">About Us</a> </li>
+                        <li> <a href="about">About Us</a> </li>
                         
                         <!--<li> 
                             <a href="index.php">Services</a> 
@@ -64,14 +64,14 @@
                             </ul>
                         </li>-->
                         <li> 
-                            <a href="project.php">Products</a> <!-- /.sub-menu -->
+                            <a href="project">Products</a> <!-- /.sub-menu -->
                         </li>
                         <li> 
-                            <a href="team.php">Brands</a> 
+                            <a href="team">Brands</a> 
                             <!-- /.sub-menu -->
                         </li>
                         <li> 
-                            <a href="blog.php">Blog</a> 
+                            <a href="blog">Blog</a> 
                             <!--<ul class="sub-menu">
                                 <li><a href="blog.php">Blog Classic</a></li>
                                 <li><a href="blog-details.php?id=1">Blog Details</a></li>
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li> <a href="contact.php">Contact Us</a> </li>
+                        <li> <a href="contact">Contact Us</a> </li>
                     </ul>                
                 </div><!-- /.navbar-collapse -->
                 <div class="right-side-box">

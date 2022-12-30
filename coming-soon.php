@@ -42,8 +42,8 @@
             <p>Our page in now in under construction, So stay in touch!</p>
             
             <div class="btn-box">
-                <a href="index.php" class="more-btn style-one hvr-sweep-to-right">Home <i class="fa fa-arrow-right"></i></a><!-- 
-                --><a href="contact.php" class="more-btn style-two hvr-sweep-to-right">Contact us <i class="fa fa-arrow-right"></i></a>
+                <a href="index" class="more-btn style-one hvr-sweep-to-right">Home <i class="fa fa-arrow-right"></i></a><!-- 
+                --><a href="contact" class="more-btn style-two hvr-sweep-to-right">Contact us <i class="fa fa-arrow-right"></i></a>
             </div><!-- /.btn-box -->
         </div><!-- /.content -->
     </div><!-- /.box -->
