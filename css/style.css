@@ -422,13 +422,7 @@ body.active-preloader-ovh {
   font-weight: 600;
   display: inline-block;
 }
-.header-navigation ul.navigation-box > li > a:after {
-  content: "\f0d7";
-  font-family: 'Font Awesome 5 Free';
-  font-size: 12px;
-  margin-left: 5px;
-  color: #fe5a0e;
-}
+
 .header-navigation ul.navigation-box > li > a:only-child:after {
   content: '';
   display: none;
@@ -540,29 +534,18 @@ body.active-preloader-ovh {
 }
 
 .header-top {
-  background: #181818;
+  background: #ffff;
 }
 .header-top .logo {
   padding-top: 30px;
   padding-bottom: 70px;
   position: relative;
-  background: #2e2e2e;
+  background: #ffff;
 }
 .header-top .logo img {
   position: relative;
 }
-.header-top .logo:before {
-  content: '';
-  width: 100000px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background: #2e2e2e;
-  right: -35px;
-  -webkit-transform: skewX(30deg);
-          transform: skewX(30deg);
-  
-}
+
 .header-top .header-right-info {
   padding: 34px 0;
 }
@@ -583,7 +566,7 @@ body.active-preloader-ovh {
 }
 .header-top .single-header-right-info .icon-box i {
   font-size: 35px;
-  color: #fff;
+  color: #181818;
   line-height: 1em;
   vertical-align: text-top;
 }
@@ -604,7 +587,7 @@ body.active-preloader-ovh {
   font-family: 'Poppins';
   font-weight: 600;
   letter-spacing: .01em;
-  color: #ffffff;
+  color: #181818;
   font-size: 18px;
 }
 .header-top.home-three {

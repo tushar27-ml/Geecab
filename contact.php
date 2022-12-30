@@ -88,7 +88,7 @@
                 <p>You will find yourself working in a true partnership that results in an incredible <br /> experience, and an end product that is the best. </p>
             </div><!-- /.sec-title text-center -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" style="padding-bottom: 15px;">
                     <div 
                       class="google-map" 
                       id="contact-page-google-map" 
@@ -105,14 +105,15 @@
                      </div>
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6">
-                    <form action="https://html.themexriver.com/industrio/inc/sendemail.php" class="contact-form">
+                    <form method="post" class="contact-form" action="includes/process-form.php">
                         <input type="text" placeholder="Your name.." name="name" />
                         <input type="text" placeholder="Your email address.." name="email" />
-                        <input type="text" placeholder="Your Location.." name="subject" />
+                        <input type="text" placeholder="Your Location.." name="location" />
                         <input type="text" placeholder="Your Subject.." name="subject" />
                         <textarea placeholder="Write..." name="message"></textarea>
-                        <button type="submit" class="hvr-sweep-to-right">Send</button>
+                        <button type="submit" class="hvr-sweep-to-right" value ="Send"><a href="mailto:info@geecab.in" style="color:#ffff;">Send</button>
                     </form>
+
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->

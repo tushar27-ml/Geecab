@@ -17,10 +17,10 @@
                         <ul class="links-list">
                             <li><a href="index.php" style="color: #fff;">Home</a></li>
                             <li><a href="about.php" style="color: #fff;">About Us</a></li>
-                            <li><a href="coming-soon.php" style="color: #fff;">Presence</a></li>
-                            <li><a href="project.php" style="color: #fff;">Project</a></li>
+                            <li><a href="project.php" style="color: #fff;">Products</a></li>
                             <li><a href="team.php" style="color: #fff;">Brands</a></li>
                             <li><a href="blog.php" style="color: #fff;">Blog</a></li>
+                            <li><a href="coming-soon.php" style="color: #fff;">Our Presence</a></li>
                             <li><a href="contact.php" style="color: #fff;">Contact</a></li>
                         </ul><!-- /.links-list -->
                     </div><!-- /.footer-widget links-widget -->
@@ -43,9 +43,9 @@
                     <div class="footer-widget subscribe-widget">
                         <h3>Subscribe Today</h3>
                         <p>Many of our SELC registered employees are requested as main</p>
-                        <form action="#" class="subscribe-form">
-                            <input type="text" placeholder="Email Address" />
-                            <button type="submit" class="hvr-sweep-to-right">Subscribe</button>
+                        <form method="post" value="Send" class="subscribe-form">
+                            <input name="email" type="text" placeholder="Email Address" />
+                            <button type="submit" class="hvr-sweep-to-right"><a href="mailto:info@geecab.in" style="color:#ffff;">Subscribe</button>
                         </form><!-- /.subscribe-form -->
                     </div><!-- /.footer-widget subscribe-widget -->
                 </div><!-- /.col-md-4 -->

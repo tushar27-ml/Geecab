@@ -1,5 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header('Location:../NiceAdmin/pages-login.php');
+header('Location:../admin/login.php');
 ?>
